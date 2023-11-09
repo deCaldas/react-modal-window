@@ -16,13 +16,13 @@ function Home() {
 
   return (
     <div>
-    <button onClick={openModal}>&gt; Contact Info &lt;</button>
+    <button onClick={openModal}> Contact Info </button>
     <Modal show={modalIsOpen} onClose={closeModal}>
     <h3>
         Contact through social networks
     </h3>
     <div>
-        <ol>
+        <ol style={{listStyle: 'none'}}>
         <li>
           <a href="https://github.com/deCaldas" target="_blank">
             <button
